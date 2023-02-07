@@ -1,0 +1,40 @@
+.work {
+  &__list {
+    display: grid;
+    margin: 0 auto;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    margin-bottom: 30px;
+  }
+  &__item {
+    position: relative;
+  }
+  &__text {
+    position: absolute;
+    font-family: "Montserrat";
+    font-size: 24px;
+    bottom: 10px;
+    margin-left: 20px;
+    color: #ffffff;
+  }
+  .box {
+    position: relative;
+  }
+  &__item {
+    max-width: 368px;
+  }
+  &__img {
+    object-fit: cover;
+    width: 100%;
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 52px;
+    border: none;
+    color: white;
+    background: #65256f;
+    border-radius: 3px;
+  }
+}
